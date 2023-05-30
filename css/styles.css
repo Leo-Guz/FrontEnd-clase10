@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+article {
+    position: relative;
+    margin: 30px;
+    background-color: #F3F3F3;
+    height: 500px;
+    width: 28%;
+    display: inline-block;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.pre-header {
+    padding: 5px 20px;
+    background-color: #1CD1B0;
+}
+header {
+    padding: 20px;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+main {
+    
+    margin-top: 50px;
+    
+}
+.superior {
+    border-radius: 20px 20px 0 0;
+    background-image: url(../img/bat2.jpg);
+    height: 40%;
+    background-size: cover;
+}
+.inferior {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+footer {
+    background-color: #00669F;
+    height: 20px;
+    padding: 15px;
+    color: white;
+}
+h2 {
+    position: relative;
+    bottom: 25px;
+}
+.heart {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+button {
+    margin: 25px 0;
+    padding: 10px 20px;
+    background-color: #00669F;
+    color: white;
+}
+article img {
+    position: absolute;
+    left: 35%;
+    top: 28%;
+    border-radius: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
